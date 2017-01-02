@@ -1,7 +1,19 @@
-ul li {
-    color: red;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
 }
 
-ul li span {
-    color: black;
+td, th {
+
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #8a8b8c;
+}
+tr:nth-child(odd) {
+    background-color: #606266;
 }
