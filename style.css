@@ -3,7 +3,8 @@ table {
     border-collapse: collapse;
     width: 100%;
     font-size: 40px;
-
+    vertical-align: middle;
+    horizontal-align: middle;
 }
 
 td, th {
